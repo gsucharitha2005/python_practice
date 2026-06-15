@@ -1,0 +1,31 @@
+#comparision operators
+a=[1,2]
+b=[1,2]
+print(a==b)
+print("_________________________")
+print("true"=="true")
+print(True==True)
+print("_________________________")
+a=[]
+b=()
+c={}
+print(a==b)
+print(a==c)
+print(b==c)
+print(a==a)
+print(b==b)
+print(c==c)
+print("_________________________")
+print(2>3<5<=7)
+print("_________________________")
+print(1.0+1==2.0)
+print("_________________________")
+print(0.1+0.2==0.3)
+print("_________________________")
+x=[]
+y=None
+print(x==y)
+print("_________________________")
+print([]!= "")
+print("_________________________")
+print("PYthon"<"PYThon")
